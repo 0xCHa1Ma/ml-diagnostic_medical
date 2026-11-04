@@ -1,0 +1,31 @@
+variable,mesure,version
+radius_mean,Rayon : moyenne des distances entre le centre du noyau et les points de son contour,moyenne sur les noyaux de l'image
+texture_mean,Texture : écart-type des niveaux de gris,moyenne sur les noyaux de l'image
+perimeter_mean,Périmètre du noyau,moyenne sur les noyaux de l'image
+area_mean,Aire du noyau,moyenne sur les noyaux de l'image
+smoothness_mean,Lissage : variation locale des longueurs de rayon,moyenne sur les noyaux de l'image
+compactness_mean,Compacité : périmètre² / aire − 1,moyenne sur les noyaux de l'image
+concavity_mean,Concavité : sévérité des parties concaves du contour,moyenne sur les noyaux de l'image
+concave points_mean,Points concaves : nombre de parties concaves du contour,moyenne sur les noyaux de l'image
+symmetry_mean,Symétrie du noyau,moyenne sur les noyaux de l'image
+fractal_dimension_mean,Dimension fractale : approximation du contour (« côte ») − 1,moyenne sur les noyaux de l'image
+radius_se,Rayon : moyenne des distances entre le centre du noyau et les points de son contour,erreur standard
+texture_se,Texture : écart-type des niveaux de gris,erreur standard
+perimeter_se,Périmètre du noyau,erreur standard
+area_se,Aire du noyau,erreur standard
+smoothness_se,Lissage : variation locale des longueurs de rayon,erreur standard
+compactness_se,Compacité : périmètre² / aire − 1,erreur standard
+concavity_se,Concavité : sévérité des parties concaves du contour,erreur standard
+concave points_se,Points concaves : nombre de parties concaves du contour,erreur standard
+symmetry_se,Symétrie du noyau,erreur standard
+fractal_dimension_se,Dimension fractale : approximation du contour (« côte ») − 1,erreur standard
+radius_worst,Rayon : moyenne des distances entre le centre du noyau et les points de son contour,pire valeur (moyenne des trois plus grandes)
+texture_worst,Texture : écart-type des niveaux de gris,pire valeur (moyenne des trois plus grandes)
+perimeter_worst,Périmètre du noyau,pire valeur (moyenne des trois plus grandes)
+area_worst,Aire du noyau,pire valeur (moyenne des trois plus grandes)
+smoothness_worst,Lissage : variation locale des longueurs de rayon,pire valeur (moyenne des trois plus grandes)
+compactness_worst,Compacité : périmètre² / aire − 1,pire valeur (moyenne des trois plus grandes)
+concavity_worst,Concavité : sévérité des parties concaves du contour,pire valeur (moyenne des trois plus grandes)
+concave points_worst,Points concaves : nombre de parties concaves du contour,pire valeur (moyenne des trois plus grandes)
+symmetry_worst,Symétrie du noyau,pire valeur (moyenne des trois plus grandes)
+fractal_dimension_worst,Dimension fractale : approximation du contour (« côte ») − 1,pire valeur (moyenne des trois plus grandes)
