@@ -19,17 +19,14 @@ LABEL_MAP = {"B": 0, "M": 1}  # M (malin) = classe positive
 
 
 def load_data(path=RAW_PATH) -> pd.DataFrame:
-    """Charge le CSV brut, retire la colonne parasite et code le diagnostic."""
+    
     df = pd.read_csv(path)
-
-    # Colonne parasite : supprimée seulement si elle est entièrement vide
     parasites = [c for c in df.columns if str(c).startswith("Unnamed")]
     for c in parasites:
         if not df[c].isna().all():
             raise ValueError(f"La colonne {c} contient des données : ne pas la supprimer.")
     df = df.drop(columns=parasites)
 
-    # Diagnostic : B = 0 (bénin), M = 1 (malin)
     df[TARGET_COL] = df[DIAG_COL].map(LABEL_MAP)
     if df[TARGET_COL].isna().any():
         raise ValueError("Valeurs de diagnostic inattendues (attendu : B ou M).")
