@@ -1,31 +1,31 @@
-variable,r_cible,cohen_d,auc,p_mannwhitney
-perimeter_worst,0.7829,2.5982,0.9755,0.0
-radius_worst,0.7765,2.5439,0.9704,0.0
-area_worst,0.7338,2.2302,0.9698,0.0
-concave points_worst,0.7936,2.6926,0.9667,0.0
-concave points_mean,0.7766,2.5452,0.9644,0.0
-perimeter_mean,0.7426,2.2895,0.9469,0.0
-area_mean,0.709,2.0757,0.9383,0.0
-concavity_mean,0.6964,2.0033,0.9378,0.0
-radius_mean,0.73,2.2055,0.9375,0.0
-area_se,0.5482,1.3534,0.9264,0.0
-concavity_worst,0.6596,1.8119,0.9214,0.0
-perimeter_se,0.5561,1.3816,0.8764,0.0
-radius_se,0.5671,1.4217,0.8683,0.0
-compactness_mean,0.5965,1.5346,0.8638,0.0
-compactness_worst,0.591,1.5126,0.8623,0.0
-concave points_se,0.408,0.9228,0.7918,0.0
-texture_worst,0.4569,1.0605,0.7846,0.0
-concavity_se,0.2537,0.5416,0.7808,0.0
-texture_mean,0.4152,0.9423,0.7758,0.0
-smoothness_worst,0.4215,0.9596,0.7541,0.0
-symmetry_worst,0.4163,0.9453,0.7369,0.0
-compactness_se,0.293,0.6327,0.7273,0.0
-smoothness_mean,0.3586,0.793,0.722,0.0
-symmetry_mean,0.3305,0.723,0.6986,0.0
-fractal_dimension_worst,0.3239,0.7068,0.686,0.0
-fractal_dimension_se,0.078,0.1615,0.6203,0.0
-symmetry_se,-0.0065,-0.0135,0.5551,0.0278
-smoothness_se,-0.067,-0.1387,0.5312,0.2136
-fractal_dimension_mean,-0.0128,-0.0265,0.5155,0.5372
-texture_se,-0.0083,-0.0171,0.5116,0.6437
+variable,r_cible,cohen_d,auc,p_mannwhitney,signif_bonferroni
+perimeter_worst,0.7829,2.5982,0.9755,0.0,True
+radius_worst,0.7765,2.5439,0.9704,0.0,True
+area_worst,0.7338,2.2302,0.9698,0.0,True
+concave points_worst,0.7936,2.6926,0.9667,0.0,True
+concave points_mean,0.7766,2.5452,0.9644,0.0,True
+perimeter_mean,0.7426,2.2895,0.9469,0.0,True
+area_mean,0.709,2.0757,0.9383,0.0,True
+concavity_mean,0.6964,2.0033,0.9378,0.0,True
+radius_mean,0.73,2.2055,0.9375,0.0,True
+area_se,0.5482,1.3534,0.9264,0.0,True
+concavity_worst,0.6596,1.8119,0.9214,0.0,True
+perimeter_se,0.5561,1.3816,0.8764,0.0,True
+radius_se,0.5671,1.4217,0.8683,0.0,True
+compactness_mean,0.5965,1.5346,0.8638,0.0,True
+compactness_worst,0.591,1.5126,0.8623,0.0,True
+concave points_se,0.408,0.9228,0.7918,0.0,True
+texture_worst,0.4569,1.0605,0.7846,0.0,True
+concavity_se,0.2537,0.5416,0.7808,0.0,True
+texture_mean,0.4152,0.9423,0.7758,0.0,True
+smoothness_worst,0.4215,0.9596,0.7541,0.0,True
+symmetry_worst,0.4163,0.9453,0.7369,0.0,True
+compactness_se,0.293,0.6327,0.7273,0.0,True
+smoothness_mean,0.3586,0.793,0.722,0.0,True
+symmetry_mean,0.3305,0.723,0.6986,0.0,True
+fractal_dimension_worst,0.3239,0.7068,0.686,0.0,True
+fractal_dimension_se,0.078,0.1615,0.6203,0.0,True
+symmetry_se,-0.0065,-0.0135,0.5551,0.0278,False
+smoothness_se,-0.067,-0.1387,0.5312,0.2136,False
+fractal_dimension_mean,-0.0128,-0.0265,0.5155,0.5372,False
+texture_se,-0.0083,-0.0171,0.5116,0.6437,False
